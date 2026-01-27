@@ -25,7 +25,7 @@ Each phase has defined inputs, outputs, and quality gates. A module doesn't adva
 Understand the source material and identify gaps against learning objectives.
 
 ### Inputs
-- Source content (Coursera modules, existing presentations, reference materials)
+- Source content (existing courses, presentations, reference materials)
 - Learning objectives (what learners should be able to do)
 - Time constraints (module duration, session format)
 
@@ -87,7 +87,7 @@ Create the visual materials for instruction.
    - Consistent formatting (headings, bullets, spacing)
 
 3. **Visual Design**
-   - Institutional colors (SCSU: Navy #003366, Gold #FFD700)
+   - Institutional colors (follow your organization's brand guidelines)
    - Readable fonts (min 24pt for content)
    - Clean layouts (no clutter)
 
@@ -264,7 +264,7 @@ Module marked PUBLISHED only when:
 
 ### Phase 1
 - Obsidian (note-taking, outline creation)
-- Source materials (Coursera, PDFs, videos)
+- Source materials (existing courses, PDFs, videos)
 
 ### Phase 2
 - HTML editor (VS Code) or PowerPoint

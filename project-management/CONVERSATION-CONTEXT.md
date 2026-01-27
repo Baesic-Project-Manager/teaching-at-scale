@@ -8,27 +8,27 @@
 
 ### The Starting Point (Late 2024)
 
-I started teaching Google Project Management Certificate courses at SCSU OWLL in late 2024. The role was straightforward: take Coursera content, adapt it for live delivery, and teach adult learners preparing for workforce certifications.
+I started teaching professional certificate courses at a state university workforce development office in late 2024. The role was straightforward: take existing course content, adapt it for live delivery, and teach adult learners preparing for workforce certifications.
 
 The first few modules were manual:
-- Watch Coursera videos, take notes
+- Review source videos, take notes
 - Build slides in PowerPoint
 - Write speaker notes in a separate doc
 - Record live sessions
 - Manually create announcements
-- Upload to Blackboard
+- Upload to the LMS
 
-This worked for one course. Then I got a second course (AI Fundamentals). Then the $30,000 grant for AI in Manufacturing. Then discussions about taking over NCC's AI Certificate program.
+This worked for one course. Then I got a second course. Then grant-funded technical training. Then discussions about additional certificate programs.
 
 **The manual approach was going to break.**
 
 ### The Scale Problem
 
 By early 2025, I was looking at:
-- 30 modules for Google PM (6 courses × 5 modules average)
-- 20 modules for AI Fundamentals (5 courses × 4 modules)
-- Week-based curriculum for AI in Manufacturing
-- 4 courses for NCC AI Certificate (potential)
+- 30 modules for project management (6 courses × 5 modules average)
+- 20 modules for AI fundamentals (5 courses × 4 modules)
+- Week-based curriculum for industry-specific AI training
+- Additional certificate programs in development
 
 That's 50+ unique modules, each requiring:
 - Topic outline
@@ -37,7 +37,7 @@ That's 50+ unique modules, each requiring:
 - 1-2 hour recording
 - Post-production assets
 
-Multiply by multiple cohorts running simultaneously (I had 2 GPM cohorts at once), and the workload becomes impossible without systems.
+Multiply by multiple cohorts running simultaneously, and the workload becomes impossible without systems.
 
 ---
 
@@ -59,23 +59,23 @@ Multiply by multiple cohorts running simultaneously (I had 2 GPM cohorts at once
 **The problem:** After each recording, I was spending 30-60 minutes on:
 - Cleaning up transcripts
 - Writing chapter markers
-- Creating Blackboard announcements
+- Creating LMS announcements
 - Extracting key points
 
-Multiply by 69 recordings.
+Multiply by 100+ recordings.
 
 **The solution:** Build a recording pipeline that automatically:
 1. Transcribes via Whisper (local, GPU-accelerated)
 2. Converts SRT to clean text (filler words removed)
 3. Generates YouTube chapters from content
-4. Creates Blackboard recap announcements
+4. Creates recap announcements
 5. Extracts "promises" made during class
 
 **The outcome:** Post-production dropped from 30-60 minutes to ~5 minutes of review.
 
 ### Decision 3: AI as Collaborator, Not Replacement
 
-**The problem:** AI tools (ChatGPT, Claude) could generate content, but raw output was often generic or missed context.
+**The problem:** AI tools could generate content, but raw output was often generic or missed context.
 
 **The solution:** Use AI for specific, constrained tasks:
 - Outline expansion (human-approved outline → detailed content)
@@ -93,9 +93,9 @@ Multiply by 69 recordings.
 - Outages affect teaching
 
 **The solution:** Build local infrastructure:
-- Ollama for local LLM inference (llama3.1:8b, nomic-embed-text)
+- Ollama for local LLM inference
 - Qdrant for vector storage (semantic search across content)
-- Docker MCP gateway for tool orchestration
+- Docker containers for tool orchestration
 
 **The outcome:** Core operations work offline. Cloud is optional enhancement.
 
@@ -117,15 +117,15 @@ Multiply by 69 recordings.
 
 | Date | Milestone |
 |------|-----------|
-| Nov 2024 | Started teaching GPM at SCSU OWLL |
-| Dec 2024 | First recording pipeline script (manual trigger) |
-| Jan 2025 | Added AI Fundamentals course |
-| Jan 2025 | Standardized module scaffold template |
-| Jan 2025 | Council review system for multi-AI document review |
-| Feb 2025 | Whisper transcription automated |
-| Feb 2025 | $30k AI in Manufacturing grant secured |
+| Late 2024 | Started teaching professional certificates |
+| Late 2024 | First recording pipeline script (manual trigger) |
+| Early 2025 | Added second course |
+| Early 2025 | Standardized module scaffold template |
+| Early 2025 | Council review system for multi-AI document review |
+| 2025 | Whisper transcription automated |
+| 2025 | Grant-funded technical training added |
 | 2025 | Chapter generation automated |
-| 2025 | Blackboard recap generation automated |
+| 2025 | LMS recap generation automated |
 | 2026 | This methodology documentation created |
 
 ---
@@ -153,22 +153,22 @@ Multiply by 69 recordings.
 
 This methodology didn't emerge in isolation:
 
-**Mike Behar's work** at CT State Norwalk showed me that curriculum development could be structured like software development—with project management, version control, and documentation.
+**Structured course development** from colleagues demonstrated that curriculum development could be treated like software development—with project management, version control, and documentation.
 
-**Coursera's instructional design** demonstrated how to structure professional certificate programs with clear learning paths.
+**Professional certificate programs** showed how to structure learning paths with clear progressions.
 
-**Enterprise marketing automation** (my previous career) taught me that any repeatable process can be systematized.
+**Enterprise marketing automation** (previous career) taught that any repeatable process can be systematized.
 
 ---
 
 ## Current State
 
-As of January 2026:
-- **5 active programs** (GPM, AI Fundamentals, AI Manufacturing, NCC prep, Power BI)
+As of early 2026:
+- **5 active programs** across project management, AI, and data analytics
 - **50+ modules** in various stages of development
-- **54 Python scripts** supporting automation
+- **50+ Python scripts** supporting automation
 - **2 concurrent cohorts** running simultaneously
-- **69 recordings** processed through the pipeline
+- **100+ recordings** processed through the pipeline
 
 The methodology works. This documentation makes it shareable.
 

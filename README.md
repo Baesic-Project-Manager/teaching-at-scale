@@ -1,118 +1,126 @@
 # Teaching at Scale
 
-A methodology for developing and delivering multiple concurrent curriculum programs using structured workflows and automation.
+A methodology for developing and delivering professional certificate programs using structured workflows and automation.
 
 ---
 
 ## What This Is
 
-This repository documents how I manage 5+ active teaching programs across community colleges, state workforce agencies, and K-12 systems—simultaneously. It's not a course repository; it's a **system for creating courses**.
+This is the **hub** for a system that turns curriculum development from manual, ad-hoc work into repeatable, scalable processes.
 
-The core insight: manual curriculum development doesn't scale. When you're running multiple cohorts, producing 50+ modules, and recording 60+ hours of live instruction, you need infrastructure. This repo documents that infrastructure.
+If you're here, you probably want one of these:
 
----
-
-## Who I Am
-
-**Matt Behar** | Instructional Designer & Course Facilitator
-
-Currently at SCSU OWLL (Office of Workforce and Lifelong Learning), teaching:
-- Google Project Management Professional Certificate (6 courses, 30 modules)
-- AI Fundamentals (5 courses, 20 modules)
-- AI in Manufacturing (CT Tech Talent Accelerator grant, $30,000)
-
-Previously: Digital marketing automation at enterprise scale (Eloqua, Monday.com).
-
-The throughline: taking complex, repeatable processes and building systems around them.
+| I want to... | Go to... |
+|--------------|----------|
+| **Build course content** (slides, speaker notes) | [curriculum-dev-kit](https://github.com/Baesic-Project-Manager/curriculum-dev-kit) |
+| **Automate post-recording** (transcripts, chapters, recaps) | [recording-pipeline](https://github.com/Baesic-Project-Manager/recording-pipeline) |
+| **Understand the philosophy** | Keep reading, then see [Conversation Context](project-management/CONVERSATION-CONTEXT.md) |
+| **Learn from real delivery experience** | [Lessons Learned](project-management/LESSONS-LEARNED.md) |
 
 ---
 
-## What's Here
-
-### `/project-management/`
-Active development tracking using a structured workflow:
-- **CONVERSATION-CONTEXT.md** — Why this methodology exists and how it evolved
-- **TODO.md** — Current priorities
-- **DONE.md** — Completed milestones
-- **ISSUES.md** — Unresolved design questions
-- **LESSONS-LEARNED.md** — What I've discovered from actual classroom delivery
-
-### `/methodology/`
-The core framework for curriculum development:
-- **4-phase-workflow.md** — Content Audit → Presentation → Speaker Notes → Production
-- **speaker-notes-format.md** — Structured format for teaching scripts
-- **scaffolding-framework.md** — How content sequences across modules
-- **ai-integration.md** — Where AI tools fit (and don't)
-
-### `/automation/`
-Scripts and workflows that make scale possible:
-- **recording-pipeline/** — How 1 class recording becomes 5 deliverables
-- **content-indexing/** — Semantic search across all published content
-- **publishing-workflow/** — OneDrive → Git → LMS automation
-
-### `/templates/`
-Reusable scaffolding:
-- Module structure templates
-- Presentation format specs
-- Speaker notes format
-
-### `/examples/`
-Sanitized samples from real courses (structure shown, proprietary content removed).
-
-### `/projects/`
-Brief descriptions of active programs and their status.
-
----
-
-## The Core Methodology
-
-### The Problem
-Each course module requires:
-- Topic research and outline
-- Visual presentation (40-60 slides)
-- Speaker notes (200-300 words per slide)
-- Live recording and delivery
-- Post-production (transcripts, chapters, announcements)
-- LMS publishing
-
-Multiply by 50+ modules across multiple courses. Manual approaches break down.
-
-### The Solution: 4-Phase Workflow
+## The System
 
 ```
-Phase 1: Content Audit
-├── Review source materials
-├── Gap analysis vs. learning objectives
-└── Topic outline approval
-
-Phase 2: Presentation Development
-├── Visual design (institutional branding)
-├── Slide structure standards
-└── AI-assisted content generation
-
-Phase 3: Speaker Notes
-├── Structured format (intro → points → transitions)
-├── Timing estimates
-└── Discussion questions
-
-Phase 4: Production
-├── Live recording (YouTube + OBS)
-├── Auto-transcription (Whisper)
-├── Chapter generation
-├── Announcement creation
-└── LMS publishing
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           TEACHING AT SCALE                                  │
+│                                                                             │
+│   ┌─────────────────────────────────────────────────────────────────────┐   │
+│   │                        BEFORE YOU RECORD                             │   │
+│   │                                                                      │   │
+│   │   Content Audit → Research → Brief → Slides + Notes                  │   │
+│   │                                                                      │   │
+│   │   📦 curriculum-dev-kit                                              │   │
+│   │      Templates, workflows, and scripts for building course content   │   │
+│   └─────────────────────────────────────────────────────────────────────┘   │
+│                                    │                                         │
+│                                    ▼                                         │
+│                            [ LIVE DELIVERY ]                                 │
+│                                    │                                         │
+│                                    ▼                                         │
+│   ┌─────────────────────────────────────────────────────────────────────┐   │
+│   │                        AFTER YOU RECORD                              │   │
+│   │                                                                      │   │
+│   │   Recording → Transcript → Chapters → Recap → Promises               │   │
+│   │                                                                      │   │
+│   │   📦 recording-pipeline                                              │   │
+│   │      Automated post-production: 1 recording → 5 outputs              │   │
+│   └─────────────────────────────────────────────────────────────────────┘   │
+│                                                                             │
+│   ┌─────────────────────────────────────────────────────────────────────┐   │
+│   │                     PHILOSOPHY & GOVERNANCE                          │   │
+│   │                                                                      │   │
+│   │   📄 teaching-at-scale (this repo)                                   │   │
+│   │      Why this approach works. Lessons from 50+ modules delivered.    │   │
+│   └─────────────────────────────────────────────────────────────────────┘   │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### The Automation Layer
+---
 
-One recording produces:
-1. **Timestamped transcript** (SRT) — auto-generated via Whisper
-2. **Clean text** — filler words removed, readable format
-3. **YouTube chapters** — auto-generated from content analysis
-4. **Blackboard announcement** — recap for learners
-5. **Promise extraction** — commitments made during class for follow-up
+## The Core Insight
 
-This happens automatically. The scripts are in `/automation/recording-pipeline/`.
+**Manual curriculum development doesn't scale.**
+
+When you're running multiple cohorts, producing 50+ modules, and recording 60+ hours of live instruction, you need infrastructure. You need:
+
+- **Repeatable workflows** — So every module hits the same quality bar
+- **Templates that encode decisions** — So you're not reinventing structure each time
+- **Automation for mechanical work** — So human effort goes to teaching, not transcription
+- **Documentation that transfers** — So someone else can pick up where you left off
+
+This repo and its siblings document that infrastructure.
+
+---
+
+## Implementation Repos
+
+| Repo | What It Does | Status |
+|------|--------------|--------|
+| [curriculum-dev-kit](https://github.com/Baesic-Project-Manager/curriculum-dev-kit) | 4-phase workflow for building course modules: Content Audit → Research → Brief → Production. Templates for topic outlines, presentation briefs, speaker notes, and HTML slides. | Complete |
+| [recording-pipeline](https://github.com/Baesic-Project-Manager/recording-pipeline) | Automated post-production: one recording becomes transcript + clean text + YouTube chapters + Blackboard recap + promise extraction. GPU-accelerated, Discord-notified. | Complete |
+| ai-memory-stack | Multi-AI coordination with persistent memory via Qdrant. Council reviews, session handoffs, inter-AI protocols. | Planned |
+
+---
+
+## The Workflow (Overview)
+
+Every module goes through four phases:
+
+```
+Phase 1: Content Audit   → What needs to be taught?
+Phase 2: Research        → What does the evidence say? (optional for rework)
+Phase 3: Brief           → What are we committing to build?
+Phase 4: Production      → Build slides, notes, record, publish
+```
+
+**For the full workflow with templates:** See [curriculum-dev-kit](https://github.com/Baesic-Project-Manager/curriculum-dev-kit)
+
+**For post-recording automation:** See [recording-pipeline](https://github.com/Baesic-Project-Manager/recording-pipeline)
+
+---
+
+## What's In This Repo
+
+This hub repo contains the **philosophy and governance** that connects the implementation repos.
+
+```
+teaching-at-scale/
+├── README.md                           # You are here (the hub)
+├── project-management/
+│   ├── CONVERSATION-CONTEXT.md         # Origin story and key decisions
+│   └── LESSONS-LEARNED.md              # What actually works in practice
+└── methodology/
+    └── 4-phase-workflow.md             # Workflow overview (detailed version in curriculum-dev-kit)
+```
+
+### Start Here
+
+| Document | What It Covers |
+|----------|----------------|
+| [Conversation Context](project-management/CONVERSATION-CONTEXT.md) | Why this methodology exists. The decisions that shaped it. How it evolved from "just teaching" to "teaching at scale." |
+| [Lessons Learned](project-management/LESSONS-LEARNED.md) | What works and what doesn't — from 50+ modules of real delivery to adult learners in workforce development. |
 
 ---
 
@@ -122,43 +130,52 @@ This happens automatically. The scripts are in `/automation/recording-pipeline/`
 |--------|-------|
 | Active teaching programs | 5 |
 | Course modules developed | 50+ |
-| Class recordings | 69 |
-| Python automation scripts | 54 |
-| Grant funding secured | $30,000 |
+| Class recordings processed | 100+ |
+| Python automation scripts | 50+ |
 | Concurrent cohorts managed | 2 |
+
+---
+
+## Background
+
+This methodology was developed by an instructional designer working across multiple workforce development programs at community colleges and state agencies.
+
+**Current work includes:**
+- Project management certification programs
+- AI fundamentals training
+- AI in manufacturing contexts
+- Power BI data analytics, dashboards, and DAX (beginner to intermediate)
+
+**Previous experience:** Digital marketing automation at enterprise scale — the same "systematize repeatable processes" mindset, different domain.
+
+The throughline: taking complex, repeatable processes and building systems around them.
 
 ---
 
 ## How to Navigate
 
 **If you're an instructional designer:**
-Start with `/methodology/4-phase-workflow.md` — the core framework.
+Start with [curriculum-dev-kit](https://github.com/Baesic-Project-Manager/curriculum-dev-kit) — the templates and workflow.
 
 **If you're technical:**
-Start with `/automation/recording-pipeline/` — the scripts that make it work.
+Start with [recording-pipeline](https://github.com/Baesic-Project-Manager/recording-pipeline) — the automation scripts.
 
-**If you're hiring:**
-Start with `/project-management/CONVERSATION-CONTEXT.md` — why this exists and how I think.
+**If you're curious about the thinking:**
+Start with [Conversation Context](project-management/CONVERSATION-CONTEXT.md) — why this exists and how it evolved.
 
 **If you're curious about outcomes:**
-Start with `/project-management/LESSONS-LEARNED.md` — what actually works in practice.
+Start with [Lessons Learned](project-management/LESSONS-LEARNED.md) — what actually works in practice.
 
 ---
 
-## Related Work
+## Related
 
-This methodology was influenced by:
-- [Mike Behar's AI-in-Business-Course-Development](https://github.com/mikeBehar/AI-in-Business-Course-Development) — structured project management for course design
-- [PPTX_Creation_utilities](https://github.com/mikeBehar/PPTX_Creation_utilities) — programmatic presentation generation
-
----
-
-## Contact
-
-- **LinkedIn:** [link]
-- **Email:** [email]
-- **Current role:** Instructional Designer / Course Facilitator at SCSU OWLL
+| Related Repo | What It Covers |
+|--------------|----------------|
+| [recording-pipeline](https://github.com/Baesic-Project-Manager/recording-pipeline) | Post-recording automation (after you record) |
+| [curriculum-dev-kit](https://github.com/Baesic-Project-Manager/curriculum-dev-kit) | Pre-recording content development (before you record) |
+| teaching-at-scale | Philosophy, governance, and lessons learned (this repo) |
 
 ---
 
-*This methodology is actively evolving. Check CONVERSATION-CONTEXT.md for the latest development rationale.*
+*This is the hub. The implementations are in the repos. The lessons are in the docs.*

@@ -52,7 +52,7 @@ AI can expand an outline into slide content. AI can draft speaker notes from sli
 ### What Doesn't Work
 
 **Sourceless adaptation.**
-Taking Coursera content and just re-presenting it misses the point. Add examples, update context, localize to your audience's industry.
+Taking existing course content and just re-presenting it misses the point. Add examples, update context, localize to your audience's industry.
 
 **Designing in PowerPoint.**
 PowerPoint invites formatting fiddling. Write content in text first (Obsidian, markdown), then move to slides. Content before aesthetics.
@@ -148,17 +148,17 @@ Presence matters even asynchronously. Regular check-ins, quick responses, visibl
 
 ## Specific Discoveries
 
-### From Google Project Management
+### From Project Management Courses
 
-- Learners struggle most with scope management (Course 2). Extra examples help.
+- Learners struggle most with scope management. Extra examples help.
 - Risk identification exercises work better live than asynchronous.
-- Quality management concepts (Course 4) need real-world grounding—theory alone doesn't land.
+- Quality management concepts need real-world grounding—theory alone doesn't land.
 
-### From AI Fundamentals
+### From AI/Technical Courses
 
 - Prompt engineering clicks faster with live demonstration than explanation.
 - Ethical AI discussions need facilitation—they can get heated.
-- Tool comparisons (ChatGPT vs. Claude vs. Gemini) age quickly. Focus on principles.
+- Tool comparisons age quickly. Focus on principles over specific products.
 
 ### From Recording Pipeline
 
