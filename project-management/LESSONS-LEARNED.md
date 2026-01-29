@@ -1,6 +1,6 @@
 # Lessons Learned
 
-> What I've discovered from actually teaching 50+ modules to adult learners in workforce development programs.
+> Lessons from teaching 50+ modules to adult learners in workforce development programs.
 
 ---
 
@@ -81,10 +81,10 @@ Git isn't just for code. Curriculum evolves. Track changes, enable rollback, see
 ### What Doesn't Work
 
 **Over-engineering before validating.**
-I built several automation scripts that solved problems I didn't actually have. Build when the manual pain is real, not anticipated.
+Avoid building automation scripts that solve anticipated problems. Build when the manual pain is real.
 
 **AI for real-time teaching.**
-I tried having AI assist during live sessions—suggest examples, answer questions. Too slow, too distracting. AI is for prep and post, not live.
+Real-time AI assistance during live teaching is too slow and distracting. AI works best for prep and post-production.
 
 **Complex workflows for small improvements.**
 Some manual tasks aren't worth automating. If it takes 2 minutes and happens once per module, just do it. Automation has maintenance cost.
@@ -116,7 +116,7 @@ Some cohorts are chatty. Some are silent watchers. Read the room. Don't force pa
 People miss sessions. Kids get sick. Jobs get busy. Make recordings available. Don't guilt-trip absences. Flexibility wins loyalty.
 
 **Assuming uniform tech comfort.**
-Some learners struggle with Blackboard, YouTube, or basic navigation. Quick orientation at course start prevents weeks of confusion.
+Some learners struggle with the LMS, YouTube, or basic navigation. Quick orientation at course start prevents weeks of confusion.
 
 ---
 
@@ -128,7 +128,7 @@ Some learners struggle with Blackboard, YouTube, or basic navigation. Quick orie
 Session schedule, assignment deadlines, communication channels—all in writing, all on day one. Ambiguity breeds confusion.
 
 **Multiple contact points.**
-Some people email. Some use Blackboard messages. Some ask in chat. Meet them where they are.
+Some people email. Some use the LMS messages. Some ask in chat. Meet them where they are.
 
 **Visible progress.**
 "You've completed 12 of 30 modules" is more motivating than "Keep going!" Show them how far they've come.
@@ -136,7 +136,7 @@ Some people email. Some use Blackboard messages. Some ask in chat. Meet them whe
 ### What Doesn't Work
 
 **Assuming they read announcements.**
-They don't. Say it in session, post it in Blackboard, and email it. Triple redundancy for important info.
+They don't. Say it in session, post it in the LMS, and email it. Triple redundancy for important info.
 
 **One-size-fits-all pacing.**
 Some learners race ahead. Some fall behind. Build in catch-up mechanisms. Don't hold fast learners back or abandon slow ones.
@@ -171,13 +171,13 @@ Presence matters even asynchronously. Regular check-ins, quick responses, visibl
 ## What I'd Do Differently
 
 **Start automating earlier.**
-I did 20+ recordings manually before building the pipeline. Should have built it after 5.
+After 5 recordings, the pipeline should exist.
 
 **Document as I go.**
 This methodology documentation happened late. Should have been writing LESSONS-LEARNED from month one.
 
 **Build in feedback loops.**
-I know what I think works. I should be systematically collecting what learners think works.
+Systematically collect what learners think works, not just instructor assumptions.
 
 **Create the portfolio sooner.**
 Proof of work matters for opportunities. Should have been building the public-facing documentation in parallel with the teaching.

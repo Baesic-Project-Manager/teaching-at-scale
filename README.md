@@ -12,8 +12,8 @@ If you're here, you probably want one of these:
 
 | I want to... | Go to... |
 |--------------|----------|
-| **Build course content** (slides, speaker notes) | [curriculum-dev-kit](https://github.com/Baesic-Project-Manager/curriculum-dev-kit) |
-| **Automate post-recording** (transcripts, chapters, recaps) | [recording-pipeline](https://github.com/Baesic-Project-Manager/recording-pipeline) |
+| **Build course content** (slides, speaker notes) | [curriculum-dev-kit](https://github.com/{your-username}/curriculum-dev-kit) |
+| **Automate post-recording** (transcripts, chapters, recaps) | [recording-pipeline](https://github.com/{your-username}/recording-pipeline) |
 | **Understand the philosophy** | Keep reading, then see [Conversation Context](project-management/CONVERSATION-CONTEXT.md) |
 | **Learn from real delivery experience** | [Lessons Learned](project-management/LESSONS-LEARNED.md) |
 
@@ -78,8 +78,8 @@ This repo and its siblings document that infrastructure.
 
 | Repo | What It Does | Status |
 |------|--------------|--------|
-| [curriculum-dev-kit](https://github.com/Baesic-Project-Manager/curriculum-dev-kit) | 4-phase workflow for building course modules: Content Audit → Research → Brief → Production. Templates for topic outlines, presentation briefs, speaker notes, and HTML slides. | Complete |
-| [recording-pipeline](https://github.com/Baesic-Project-Manager/recording-pipeline) | Automated post-production: one recording becomes transcript + clean text + YouTube chapters + Blackboard recap + promise extraction. GPU-accelerated, Discord-notified. | Complete |
+| [curriculum-dev-kit](https://github.com/{your-username}/curriculum-dev-kit) | 4-phase workflow for building course modules: Content Audit → Research → Brief → Production. Templates for topic outlines, presentation briefs, speaker notes, and HTML slides. | Complete |
+| [recording-pipeline](https://github.com/{your-username}/recording-pipeline) | Automated post-production: one recording becomes transcript + clean text + YouTube chapters + LMS recap + promise extraction. GPU-accelerated, Discord-notified. | Complete |
 | ai-memory-stack | Multi-AI coordination with persistent memory via Qdrant. Council reviews, session handoffs, inter-AI protocols. | Planned |
 
 ---
@@ -95,9 +95,9 @@ Phase 3: Brief           → What are we committing to build?
 Phase 4: Production      → Build slides, notes, record, publish
 ```
 
-**For the full workflow with templates:** See [curriculum-dev-kit](https://github.com/Baesic-Project-Manager/curriculum-dev-kit)
+**For the full workflow with templates:** See [curriculum-dev-kit](https://github.com/{your-username}/curriculum-dev-kit)
 
-**For post-recording automation:** See [recording-pipeline](https://github.com/Baesic-Project-Manager/recording-pipeline)
+**For post-recording automation:** See [recording-pipeline](https://github.com/{your-username}/recording-pipeline)
 
 ---
 
@@ -138,15 +138,13 @@ teaching-at-scale/
 
 ## Background
 
-This methodology was developed by an instructional designer working across multiple workforce development programs at community colleges and state agencies.
+This methodology was developed by educators working in higher education and professional development.
 
 **Current work includes:**
 - Project management certification programs
 - AI fundamentals training
 - AI in manufacturing contexts
 - Power BI data analytics, dashboards, and DAX (beginner to intermediate)
-
-**Previous experience:** Digital marketing automation at enterprise scale — the same "systematize repeatable processes" mindset, different domain.
 
 The throughline: taking complex, repeatable processes and building systems around them.
 
@@ -155,10 +153,10 @@ The throughline: taking complex, repeatable processes and building systems aroun
 ## How to Navigate
 
 **If you're an instructional designer:**
-Start with [curriculum-dev-kit](https://github.com/Baesic-Project-Manager/curriculum-dev-kit) — the templates and workflow.
+Start with [curriculum-dev-kit](https://github.com/{your-username}/curriculum-dev-kit) — the templates and workflow.
 
 **If you're technical:**
-Start with [recording-pipeline](https://github.com/Baesic-Project-Manager/recording-pipeline) — the automation scripts.
+Start with [recording-pipeline](https://github.com/{your-username}/recording-pipeline) — the automation scripts.
 
 **If you're curious about the thinking:**
 Start with [Conversation Context](project-management/CONVERSATION-CONTEXT.md) — why this exists and how it evolved.
@@ -172,8 +170,8 @@ Start with [Lessons Learned](project-management/LESSONS-LEARNED.md) — what act
 
 | Related Repo | What It Covers |
 |--------------|----------------|
-| [recording-pipeline](https://github.com/Baesic-Project-Manager/recording-pipeline) | Post-recording automation (after you record) |
-| [curriculum-dev-kit](https://github.com/Baesic-Project-Manager/curriculum-dev-kit) | Pre-recording content development (before you record) |
+| [recording-pipeline](https://github.com/{your-username}/recording-pipeline) | Post-recording automation (after you record) |
+| [curriculum-dev-kit](https://github.com/{your-username}/curriculum-dev-kit) | Pre-recording content development (before you record) |
 | teaching-at-scale | Philosophy, governance, and lessons learned (this repo) |
 
 ---

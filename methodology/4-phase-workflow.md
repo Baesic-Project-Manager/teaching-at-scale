@@ -195,13 +195,13 @@ Deliver the content and create all derivative assets.
    - Whisper transcription → SRT file
    - Clean text conversion → readable transcript
    - Chapter generation → YouTube chapters
-   - Recap generation → Blackboard announcement
+   - Recap generation → LMS announcement
    - Promise extraction → follow-up items
 
 4. **Publishing**
    - Video to YouTube (if live, already there)
    - Transcript to content archive
-   - Announcement to Blackboard
+   - Announcement to LMS
    - Module marked complete in tracking
 
 ### Outputs
@@ -209,7 +209,7 @@ Deliver the content and create all derivative assets.
 - Timestamped transcript (SRT)
 - Clean text transcript
 - YouTube chapters
-- Blackboard announcement
+- LMS announcement
 - Any extracted follow-up items
 
 ### Quality Gate
@@ -280,7 +280,7 @@ Module marked PUBLISHED only when:
 - OBS Studio (recording)
 - YouTube Live (streaming)
 - Recording pipeline scripts (post-production)
-- Blackboard (LMS publishing)
+- LMS (LMS publishing)
 
 ---
 

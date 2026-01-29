@@ -8,7 +8,7 @@
 
 ### The Starting Point (Late 2024)
 
-I started teaching professional certificate courses at a state university workforce development office in late 2024. The role was straightforward: take existing course content, adapt it for live delivery, and teach adult learners preparing for workforce certifications.
+I started teaching professional certificate courses at a higher education institution. The role was straightforward: take existing course content, adapt it for live delivery, and teach adult learners preparing for workforce certifications.
 
 The first few modules were manual:
 - Review source videos, take notes
@@ -18,7 +18,7 @@ The first few modules were manual:
 - Manually create announcements
 - Upload to the LMS
 
-This worked for one course. Then I got a second course. Then grant-funded technical training. Then discussions about additional certificate programs.
+This worked for one course. Then I got a second course. Then additional training programs. Then discussions about additional certificate programs.
 
 **The manual approach was going to break.**
 
@@ -115,18 +115,18 @@ Multiply by 100+ recordings.
 
 ## Evolution Timeline
 
-| Date | Milestone |
-|------|-----------|
-| Late 2024 | Started teaching professional certificates |
-| Late 2024 | First recording pipeline script (manual trigger) |
-| Early 2025 | Added second course |
-| Early 2025 | Standardized module scaffold template |
-| Early 2025 | Council review system for multi-AI document review |
-| 2025 | Whisper transcription automated |
-| 2025 | Grant-funded technical training added |
-| 2025 | Chapter generation automated |
-| 2025 | LMS recap generation automated |
-| 2026 | This methodology documentation created |
+| Phase | Milestone |
+|-------|-----------|
+| Initial | Started teaching professional certificates |
+| Initial | First recording pipeline script (manual trigger) |
+| Growth | Added second course |
+| Growth | Standardized module scaffold template |
+| Growth | Council review system for multi-AI document review |
+| Maturity | Whisper transcription automated |
+| Maturity | Additional training programs added |
+| Maturity | Chapter generation automated |
+| Maturity | LMS recap generation automated |
+| Current | This methodology documentation created |
 
 ---
 
@@ -163,7 +163,7 @@ This methodology didn't emerge in isolation:
 
 ## Current State
 
-As of early 2026:
+Current state:
 - **5 active programs** across project management, AI, and data analytics
 - **50+ modules** in various stages of development
 - **50+ Python scripts** supporting automation
@@ -174,4 +174,4 @@ The methodology works. This documentation makes it shareable.
 
 ---
 
-*Last updated: January 2026*
+*Last updated: [Date]*
