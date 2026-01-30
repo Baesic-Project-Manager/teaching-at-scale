@@ -10,7 +10,7 @@ A methodology for developing and delivering professional certificate programs us
 |--------------|----------|
 | **Build course content** | [curriculum-dev-kit](https://github.com/Baesic-Project-Manager/curriculum-dev-kit) |
 | **Automate post-recording** | [recording-pipeline](https://github.com/Baesic-Project-Manager/recording-pipeline) |
-| **Understand the methodology** | [Wiki](https://github.com/Matticus34/teaching-at-scale/wiki) |
+| **Understand the methodology** | [Wiki](https://github.com/Baesic-Project-Manager/teaching-at-scale/wiki) |
 
 ---
 
@@ -26,7 +26,7 @@ A methodology for developing and delivering professional certificate programs us
 
 ## Start Here
 
-**[→ Go to the Wiki](https://github.com/Matticus34/teaching-at-scale/wiki)** for guides, workflow documentation, and lessons learned from 50+ modules.
+**[→ Go to the Wiki](https://github.com/Baesic-Project-Manager/teaching-at-scale/wiki)** for guides, workflow documentation, and lessons learned from 50+ modules.
 
 ---
 
